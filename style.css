@@ -1,0 +1,79 @@
+
+.content {
+    text-align: justify;
+    border: 2px solid black;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%;
+    padding: 30px;
+    border-radius: 4px;
+}
+.accessibilty {
+    border: 2px solid black;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+}
+.text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 380px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.background {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    width: 380px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.color {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 380px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.background input, .color input {
+    margin-right: 20px;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding-left: 3px;
+}
+
+
+.fa-text-height, .fa-edit {
+    margin-left: 30px;
+    cursor: pointer;
+}
+.text-1  {
+    font-size: 25px;
+}
+.text-2  {
+    font-size: 35px;
+}
+.text-3  {
+    font-size: 45px;
+}
+
+
+
+
